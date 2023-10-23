@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./js/css/estilo.css">
+    <title>Detalhes</title>
+</head>
+<body>
+    <p id="loading" >Carregando...</p>
+    <a href="./index.html">Voltar</a>
+    <div id="posts-container"></div>
+    <h2>Comentarios</h2>
+    <form id="comentario-form">
+        <div> 
+            <label for="email">Seu E-Email</label>
+            <input type="email" name="email" id="email" placeholder="Digite seu e-mail" required>
+        </div>
+        <div>
+            <label for="comentario"></label>
+            <textarea name="tcomentario" id="tcomentario" placeholder="Digite seu comentario" required ></textarea>
+        </div>
+        <input type="submit" value="Enviar">
+    </form>
+    <div id="comentarios-container"></div>
+    <script src="./js/index.js"></script>
+</body>
+</html>
